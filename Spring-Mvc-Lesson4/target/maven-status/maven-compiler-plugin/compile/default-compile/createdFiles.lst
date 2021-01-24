@@ -1,0 +1,5 @@
+com\company\springmvc\model\Product.class
+com\company\springmvc\util\ProductUtil.class
+com\company\springmvc\config\AppInitializer.class
+com\company\springmvc\config\AppConfig.class
+com\company\springmvc\controller\ProductController.class

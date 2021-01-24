@@ -1,0 +1,64 @@
+SPring MVC nedir?
+
+Aciqlamasi Model View Controller dir
+
+Spring MVC komponentleri nelerdir ?
+
+1)  Web Page lerin listi hanskini User Interfcae terefi deyirik buna
+
+2) Spring bean kolleksiyasi burda sohbet controller service repository v s den gedir
+
+3) Spring configuration  ( XML ve ya annotation larla)
+
+Indi ise backrground da bu MVC nece isdeyir buna baxaq
+
+Demeli sistem bele isdeyir ox isareleri ile duzeltmeye calisacam
+
+Front Controller ----->  Model -----> Controller -----> Model -----> View Page -----> Web Browser burdanda
+tekrar Front a qayidir
+
+FrontController dediyimiz Servletderde DispetcherServlet var idi  bax bu hemen Frontdur.
+Ancaq Spring komandasi bu isi ozleri hell edibler deye sen bu hisseni yazmirsan
+Sene qalan Hisse MVC ni yaratmaqdir
+
+  *** CONTROLLER ***
+
+  Developer terefinden yaradilir
+
+  Bizness logikasinda ehate olunan seyler asagidakilardir:
+
+  Request i ele almaq
+
+  Store/retrieve Data
+
+  data modelin yerlesmesi
+
+  Ve view template in gonderilmesi
+
+
+  *** MODEL ***
+
+  Developer terefinden yaradilir
+
+  Datalarimizi saxliyan bir modeldir
+
+  Datalarimi dtabase e backend sistemi ile yaddasda saxlayir
+
+  Bean lerden istifade edir eger XML fayli ile yazirsansa
+
+  Data her hansia bir collection da ola biler
+
+
+  *** VIEW TEMPLATE ***
+
+  View template developer terefinden yaradilir  jsp jstl ile view hissesi hazirlanir
+
+  Spring cox flexible dir  tekce jsp ile deyil , basqa nov page lerlede isleyir
+  Thymeleaf , grovy, freemaker ve s web page ler ilede isleye bilir
+
+  Indi ise MVC projectimiz ucun bezi jar fayllari yukleyek ve xml fayillarinida hazir edekki
+  backend de yazdigimiz kodu frontda gore bilek
+
+  jar fayllar bunlardir :
+                           javax.servlet.jsp.jstl-1.2.1.jar
+                           javax.servlet.jsp.jstl-api-1.2.1.jar
